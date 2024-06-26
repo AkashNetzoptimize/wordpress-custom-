@@ -419,8 +419,8 @@ function ajax_filter_posts()
 
 	$response = ob_get_clean();
 
+	//pagination 
 	ob_start();
-
 	echo paginate_links(array(
 		'total' => $custom_query->max_num_pages,
 		'current' => max(1, $paged),
