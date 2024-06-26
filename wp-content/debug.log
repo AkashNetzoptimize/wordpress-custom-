@@ -1,0 +1,173 @@
+[22-Jun-2024 07:29:06 UTC] PHP Warning:  Undefined array key "page" in C:\xampp\htdocs\wordpresspractice\wp-content\themes\hello-elementor\functions.php on line 354
+[22-Jun-2024 07:29:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_child_categories() in C:\xampp\htdocs\wordpresspractice\wp-content\themes\hello-elementor\functions.php:357
+Stack trace:
+#0 C:\xampp\htdocs\wordpresspractice\wp-includes\class-wp-hook.php(324): custom_pagination('')
+#1 C:\xampp\htdocs\wordpresspractice\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpresspractice\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpresspractice\wp-admin\admin-ajax.php(192): do_action('wp_ajax_custom_...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wordpresspractice\wp-content\themes\hello-elementor\functions.php on line 357
+[22-Jun-2024 07:29:33 UTC] PHP Warning:  Undefined array key "page" in C:\xampp\htdocs\wordpresspractice\wp-content\themes\hello-elementor\functions.php on line 354
+[22-Jun-2024 07:29:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_child_categories() in C:\xampp\htdocs\wordpresspractice\wp-content\themes\hello-elementor\functions.php:357
+Stack trace:
+#0 C:\xampp\htdocs\wordpresspractice\wp-includes\class-wp-hook.php(324): custom_pagination('')
+#1 C:\xampp\htdocs\wordpresspractice\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpresspractice\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpresspractice\wp-admin\admin-ajax.php(192): do_action('wp_ajax_custom_...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wordpresspractice\wp-content\themes\hello-elementor\functions.php on line 357
+[24-Jun-2024 05:58:41 UTC] PHP Warning:  Undefined array key "category_id" in C:\xampp\htdocs\wordpresspractice\wp-content\themes\hello-elementor\functions.php on line 344
+[24-Jun-2024 05:58:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_child_categories() in C:\xampp\htdocs\wordpresspractice\wp-content\themes\hello-elementor\functions.php:348
+Stack trace:
+#0 C:\xampp\htdocs\wordpresspractice\wp-includes\class-wp-hook.php(324): ajax_filter_posts('')
+#1 C:\xampp\htdocs\wordpresspractice\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpresspractice\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpresspractice\wp-admin\admin-ajax.php(192): do_action('wp_ajax_ajax_fi...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wordpresspractice\wp-content\themes\hello-elementor\functions.php on line 348
+[24-Jun-2024 06:00:55 UTC] PHP Warning:  Undefined array key "category_id" in C:\xampp\htdocs\wordpresspractice\wp-content\themes\hello-elementor\functions.php on line 344
+[24-Jun-2024 06:00:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_child_categories() in C:\xampp\htdocs\wordpresspractice\wp-content\themes\hello-elementor\functions.php:348
+Stack trace:
+#0 C:\xampp\htdocs\wordpresspractice\wp-includes\class-wp-hook.php(324): ajax_filter_posts('')
+#1 C:\xampp\htdocs\wordpresspractice\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpresspractice\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpresspractice\wp-admin\admin-ajax.php(192): do_action('wp_ajax_ajax_fi...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wordpresspractice\wp-content\themes\hello-elementor\functions.php on line 348
+[24-Jun-2024 06:09:06 UTC] PHP Warning:  Undefined array key "category_id" in C:\xampp\htdocs\wordpresspractice\wp-content\themes\hello-elementor\functions.php on line 345
+[24-Jun-2024 06:09:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_child_categories() in C:\xampp\htdocs\wordpresspractice\wp-content\themes\hello-elementor\functions.php:349
+Stack trace:
+#0 C:\xampp\htdocs\wordpresspractice\wp-includes\class-wp-hook.php(324): ajax_filter_posts('')
+#1 C:\xampp\htdocs\wordpresspractice\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpresspractice\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpresspractice\wp-admin\admin-ajax.php(192): do_action('wp_ajax_ajax_fi...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wordpresspractice\wp-content\themes\hello-elementor\functions.php on line 349
+[24-Jun-2024 06:17:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_child_categories() in C:\xampp\htdocs\wordpresspractice\wp-content\themes\hello-elementor\functions.php:350
+Stack trace:
+#0 C:\xampp\htdocs\wordpresspractice\wp-includes\class-wp-hook.php(324): ajax_filter_posts('')
+#1 C:\xampp\htdocs\wordpresspractice\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpresspractice\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpresspractice\wp-admin\admin-ajax.php(192): do_action('wp_ajax_ajax_fi...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wordpresspractice\wp-content\themes\hello-elementor\functions.php on line 350
+[24-Jun-2024 06:17:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_child_categories() in C:\xampp\htdocs\wordpresspractice\wp-content\themes\hello-elementor\functions.php:350
+Stack trace:
+#0 C:\xampp\htdocs\wordpresspractice\wp-includes\class-wp-hook.php(324): ajax_filter_posts('')
+#1 C:\xampp\htdocs\wordpresspractice\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpresspractice\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpresspractice\wp-admin\admin-ajax.php(192): do_action('wp_ajax_ajax_fi...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wordpresspractice\wp-content\themes\hello-elementor\functions.php on line 350
+[24-Jun-2024 06:18:09 UTC] PHP Warning:  Undefined array key "category_id" in C:\xampp\htdocs\wordpresspractice\wp-content\themes\hello-elementor\functions.php on line 345
+[24-Jun-2024 06:18:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_child_categories() in C:\xampp\htdocs\wordpresspractice\wp-content\themes\hello-elementor\functions.php:349
+Stack trace:
+#0 C:\xampp\htdocs\wordpresspractice\wp-includes\class-wp-hook.php(324): ajax_filter_posts('')
+#1 C:\xampp\htdocs\wordpresspractice\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpresspractice\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpresspractice\wp-admin\admin-ajax.php(192): do_action('wp_ajax_ajax_fi...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wordpresspractice\wp-content\themes\hello-elementor\functions.php on line 349
+[24-Jun-2024 06:20:17 UTC] PHP Warning:  Undefined array key "page" in C:\xampp\htdocs\wordpresspractice\wp-content\themes\hello-elementor\functions.php on line 345
+[24-Jun-2024 06:20:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_child_categories() in C:\xampp\htdocs\wordpresspractice\wp-content\themes\hello-elementor\functions.php:349
+Stack trace:
+#0 C:\xampp\htdocs\wordpresspractice\wp-includes\class-wp-hook.php(324): ajax_filter_posts('')
+#1 C:\xampp\htdocs\wordpresspractice\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpresspractice\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpresspractice\wp-admin\admin-ajax.php(192): do_action('wp_ajax_ajax_fi...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wordpresspractice\wp-content\themes\hello-elementor\functions.php on line 349
+[24-Jun-2024 06:22:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_child_categories() in C:\xampp\htdocs\wordpresspractice\wp-content\themes\hello-elementor\functions.php:349
+Stack trace:
+#0 C:\xampp\htdocs\wordpresspractice\wp-includes\class-wp-hook.php(324): ajax_filter_posts('')
+#1 C:\xampp\htdocs\wordpresspractice\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpresspractice\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpresspractice\wp-admin\admin-ajax.php(192): do_action('wp_ajax_ajax_fi...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wordpresspractice\wp-content\themes\hello-elementor\functions.php on line 349
+[24-Jun-2024 06:25:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_child_categories() in C:\xampp\htdocs\wordpresspractice\wp-content\themes\hello-elementor\functions.php:349
+Stack trace:
+#0 C:\xampp\htdocs\wordpresspractice\wp-includes\class-wp-hook.php(324): ajax_filter_posts('')
+#1 C:\xampp\htdocs\wordpresspractice\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpresspractice\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpresspractice\wp-admin\admin-ajax.php(192): do_action('wp_ajax_ajax_fi...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wordpresspractice\wp-content\themes\hello-elementor\functions.php on line 349
+[24-Jun-2024 06:34:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_child_categories() in C:\xampp\htdocs\wordpresspractice\wp-content\themes\hello-elementor\functions.php:349
+Stack trace:
+#0 C:\xampp\htdocs\wordpresspractice\wp-includes\class-wp-hook.php(324): ajax_filter_posts('')
+#1 C:\xampp\htdocs\wordpresspractice\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpresspractice\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpresspractice\wp-admin\admin-ajax.php(192): do_action('wp_ajax_ajax_fi...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wordpresspractice\wp-content\themes\hello-elementor\functions.php on line 349
+[24-Jun-2024 06:36:08 UTC] PHP Warning:  include_once(path-to-functions.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\wordpresspractice\wp-content\themes\hello-elementor\functions.php on line 347
+[24-Jun-2024 06:36:08 UTC] PHP Warning:  include_once(): Failed opening 'path-to-functions.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\wordpresspractice\wp-content\themes\hello-elementor\functions.php on line 347
+[24-Jun-2024 06:36:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_child_categories() in C:\xampp\htdocs\wordpresspractice\wp-content\themes\hello-elementor\functions.php:355
+Stack trace:
+#0 C:\xampp\htdocs\wordpresspractice\wp-includes\class-wp-hook.php(324): ajax_filter_posts('')
+#1 C:\xampp\htdocs\wordpresspractice\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpresspractice\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpresspractice\wp-admin\admin-ajax.php(192): do_action('wp_ajax_ajax_fi...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wordpresspractice\wp-content\themes\hello-elementor\functions.php on line 355
+[24-Jun-2024 06:36:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_child_categories() in C:\xampp\htdocs\wordpresspractice\wp-content\themes\hello-elementor\functions.php:349
+Stack trace:
+#0 C:\xampp\htdocs\wordpresspractice\wp-includes\class-wp-hook.php(324): ajax_filter_posts('')
+#1 C:\xampp\htdocs\wordpresspractice\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpresspractice\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpresspractice\wp-admin\admin-ajax.php(192): do_action('wp_ajax_ajax_fi...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wordpresspractice\wp-content\themes\hello-elementor\functions.php on line 349
+[24-Jun-2024 06:45:56 UTC] PHP Warning:  Undefined array key "page" in C:\xampp\htdocs\wordpresspractice\wp-content\themes\hello-elementor\functions.php on line 345
+[24-Jun-2024 06:46:00 UTC] PHP Warning:  Undefined array key "page" in C:\xampp\htdocs\wordpresspractice\wp-content\themes\hello-elementor\functions.php on line 345
+[24-Jun-2024 06:46:14 UTC] PHP Warning:  Undefined array key "page" in C:\xampp\htdocs\wordpresspractice\wp-content\themes\hello-elementor\functions.php on line 345
+[24-Jun-2024 06:46:52 UTC] PHP Warning:  Undefined array key "page" in C:\xampp\htdocs\wordpresspractice\wp-content\themes\hello-elementor\functions.php on line 345
+[24-Jun-2024 06:50:13 UTC] PHP Warning:  Undefined array key "page" in C:\xampp\htdocs\wordpresspractice\wp-content\themes\hello-elementor\functions.php on line 345
+[24-Jun-2024 06:50:38 UTC] PHP Warning:  Undefined array key "page" in C:\xampp\htdocs\wordpresspractice\wp-content\themes\hello-elementor\functions.php on line 345
+[24-Jun-2024 06:52:32 UTC] PHP Warning:  Undefined array key "page" in C:\xampp\htdocs\wordpresspractice\wp-content\themes\hello-elementor\functions.php on line 345
+[24-Jun-2024 06:52:37 UTC] PHP Warning:  Undefined array key "page" in C:\xampp\htdocs\wordpresspractice\wp-content\themes\hello-elementor\functions.php on line 345
+[24-Jun-2024 06:54:26 UTC] PHP Warning:  Undefined array key "page" in C:\xampp\htdocs\wordpresspractice\wp-content\themes\hello-elementor\functions.php on line 345
+[24-Jun-2024 07:00:04 UTC] PHP Warning:  Undefined array key "page" in C:\xampp\htdocs\wordpresspractice\wp-content\themes\hello-elementor\functions.php on line 345
+[24-Jun-2024 07:56:37 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting "elseif" or "else" or "endif" in C:\xampp\htdocs\wordpresspractice\wp-content\themes\hello-elementor\functions.php on line 429
+
+
+[24-Jun-2024 10:00:08 UTC] PHP Warning:  Undefined array key "page" in C:\xampp\htdocs\wordpresspractice\wp-content\themes\hello-elementor\functions.php on line 345
+[24-Jun-2024 10:00:13 UTC] PHP Warning:  Undefined array key "page" in C:\xampp\htdocs\wordpresspractice\wp-content\themes\hello-elementor\functions.php on line 345
+[24-Jun-2024 10:00:27 UTC] PHP Warning:  Undefined array key "page" in C:\xampp\htdocs\wordpresspractice\wp-content\themes\hello-elementor\functions.php on line 345
+[24-Jun-2024 10:00:32 UTC] PHP Warning:  Undefined array key "page" in C:\xampp\htdocs\wordpresspractice\wp-content\themes\hello-elementor\functions.php on line 345
+[24-Jun-2024 10:00:54 UTC] PHP Warning:  Undefined array key "page" in C:\xampp\htdocs\wordpresspractice\wp-content\themes\hello-elementor\functions.php on line 345
+[24-Jun-2024 10:23:07 UTC] PHP Parse error:  syntax error, unexpected identifier "is" in C:\xampp\htdocs\wordpresspractice\wp-content\themes\hello-elementor\functions.php on line 432
+[24-Jun-2024 10:29:10 UTC] PHP Parse error:  syntax error, unexpected token ":" in C:\xampp\htdocs\wordpresspractice\wp-content\themes\hello-elementor\functions.php on line 419
+[24-Jun-2024 10:30:27 UTC] PHP Parse error:  syntax error, unexpected token ":" in C:\xampp\htdocs\wordpresspractice\wp-content\themes\hello-elementor\functions.php on line 419
+[24-Jun-2024 11:13:32 UTC] PHP Parse error:  syntax error, unexpected identifier "previous" in C:\xampp\htdocs\wordpresspractice\wp-content\themes\hello-elementor\functions.php on line 431
+[24-Jun-2024 11:20:38 UTC] PHP Warning:  Array to string conversion in C:\xampp\htdocs\wordpresspractice\wp-content\themes\hello-elementor\functions.php on line 415
+[24-Jun-2024 11:40:30 UTC] PHP Fatal error:  Uncaught ArgumentCountError: ob_get_clean() expects exactly 0 arguments, 1 given in C:\xampp\htdocs\wordpresspractice\wp-content\themes\hello-elementor\functions.php:429
+Stack trace:
+#0 C:\xampp\htdocs\wordpresspractice\wp-content\themes\hello-elementor\functions.php(429): ob_get_clean('\t\t\t<div id="pos...')
+#1 C:\xampp\htdocs\wordpresspractice\wp-includes\class-wp-hook.php(324): ajax_filter_posts('')
+#2 C:\xampp\htdocs\wordpresspractice\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\wordpresspractice\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wordpresspractice\wp-admin\admin-ajax.php(192): do_action('wp_ajax_ajax_fi...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wordpresspractice\wp-content\themes\hello-elementor\functions.php on line 429
+[24-Jun-2024 11:51:23 UTC] PHP Warning:  Undefined array key "paged" in C:\xampp\htdocs\wordpresspractice\wp-content\themes\hello-elementor\functions.php on line 418
+[24-Jun-2024 12:41:18 UTC] PHP Parse error:  Unclosed '{' on line 343 in C:\xampp\htdocs\wordpresspractice\wp-content\themes\hello-elementor\functions.php on line 433
+[24-Jun-2024 13:46:03 UTC] PHP Warning:  Array to string conversion in C:\xampp\htdocs\wordpresspractice\wp-content\themes\hello-elementor\functions.php on line 424
+[24-Jun-2024 14:55:26 UTC] PHP Warning:  Array to string conversion in C:\xampp\htdocs\wordpresspractice\wp-content\themes\hello-elementor\custom-post.php on line 112
+[24-Jun-2024 15:00:42 UTC] PHP Deprecated:  implode(): Passing null to parameter #1 ($separator) of type array|string is deprecated in C:\xampp\htdocs\wordpresspractice\wp-includes\category-template.php on line 1377
+[24-Jun-2024 15:00:53 UTC] PHP Deprecated:  implode(): Passing null to parameter #1 ($separator) of type array|string is deprecated in C:\xampp\htdocs\wordpresspractice\wp-includes\category-template.php on line 1377
+[26-Jun-2024 04:41:47 UTC] PHP Deprecated:  implode(): Passing null to parameter #1 ($separator) of type array|string is deprecated in C:\xampp\htdocs\wordpresspractice\wp-includes\category-template.php on line 1377
+[26-Jun-2024 04:44:54 UTC] PHP Deprecated:  implode(): Passing null to parameter #1 ($separator) of type array|string is deprecated in C:\xampp\htdocs\wordpresspractice\wp-includes\category-template.php on line 1377
+[26-Jun-2024 04:45:54 UTC] PHP Deprecated:  implode(): Passing null to parameter #1 ($separator) of type array|string is deprecated in C:\xampp\htdocs\wordpresspractice\wp-includes\category-template.php on line 1377
+[26-Jun-2024 04:46:30 UTC] PHP Deprecated:  implode(): Passing null to parameter #1 ($separator) of type array|string is deprecated in C:\xampp\htdocs\wordpresspractice\wp-includes\category-template.php on line 1377
+[26-Jun-2024 04:57:37 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting "elseif" or "else" or "endif" in C:\xampp\htdocs\wordpresspractice\wp-content\themes\hello-elementor\functions.php on line 429
+[26-Jun-2024 04:57:51 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting "elseif" or "else" or "endif" in C:\xampp\htdocs\wordpresspractice\wp-content\themes\hello-elementor\functions.php on line 429
+[26-Jun-2024 04:58:15 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting "elseif" or "else" or "endif" in C:\xampp\htdocs\wordpresspractice\wp-content\themes\hello-elementor\functions.php on line 429
+[26-Jun-2024 04:58:20 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting "elseif" or "else" or "endif" in C:\xampp\htdocs\wordpresspractice\wp-content\themes\hello-elementor\functions.php on line 429
+[26-Jun-2024 04:58:21 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\wordpresspractice\wp-includes\class-wp-recovery-mode-email-service.php on line 367
+[26-Jun-2024 04:58:21 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\wordpresspractice\wp-includes\class-wp-recovery-mode-email-service.php on line 368
+[26-Jun-2024 05:00:17 UTC] PHP Deprecated:  implode(): Passing null to parameter #1 ($separator) of type array|string is deprecated in C:\xampp\htdocs\wordpresspractice\wp-includes\category-template.php on line 1377
+[26-Jun-2024 05:00:32 UTC] PHP Deprecated:  implode(): Passing null to parameter #1 ($separator) of type array|string is deprecated in C:\xampp\htdocs\wordpresspractice\wp-includes\category-template.php on line 1377
+[26-Jun-2024 05:00:48 UTC] PHP Deprecated:  implode(): Passing null to parameter #1 ($separator) of type array|string is deprecated in C:\xampp\htdocs\wordpresspractice\wp-includes\category-template.php on line 1377
+[26-Jun-2024 05:01:28 UTC] PHP Deprecated:  implode(): Passing null to parameter #1 ($separator) of type array|string is deprecated in C:\xampp\htdocs\wordpresspractice\wp-includes\category-template.php on line 1377
