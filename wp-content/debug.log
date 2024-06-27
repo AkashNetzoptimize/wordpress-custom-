@@ -171,3 +171,84 @@ Stack trace:
 [26-Jun-2024 05:00:32 UTC] PHP Deprecated:  implode(): Passing null to parameter #1 ($separator) of type array|string is deprecated in C:\xampp\htdocs\wordpresspractice\wp-includes\category-template.php on line 1377
 [26-Jun-2024 05:00:48 UTC] PHP Deprecated:  implode(): Passing null to parameter #1 ($separator) of type array|string is deprecated in C:\xampp\htdocs\wordpresspractice\wp-includes\category-template.php on line 1377
 [26-Jun-2024 05:01:28 UTC] PHP Deprecated:  implode(): Passing null to parameter #1 ($separator) of type array|string is deprecated in C:\xampp\htdocs\wordpresspractice\wp-includes\category-template.php on line 1377
+[27-Jun-2024 07:41:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_url() in C:\xampp\htdocs\wordpresspractice\wp-content\plugins\my-plugin\my-plugin.php:61
+Stack trace:
+#0 C:\xampp\htdocs\wordpresspractice\wp-settings.php(517): include_once()
+#1 C:\xampp\htdocs\wordpresspractice\wp-config.php(101): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpresspractice\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpresspractice\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wordpresspractice\wp-content\plugins\my-plugin\my-plugin.php on line 61
+[27-Jun-2024 07:43:21 UTC] PHP Parse error:  syntax error, unexpected identifier "wp_enqueue_script" in C:\xampp\htdocs\wordpresspractice\wp-content\plugins\my-plugin\my-plugin.php on line 63
+[27-Jun-2024 07:45:22 UTC] PHP Parse error:  syntax error, unexpected identifier "wp_enqueue_script" in C:\xampp\htdocs\wordpresspractice\wp-content\plugins\my-plugin\my-plugin.php on line 63
+[27-Jun-2024 07:47:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_url() in C:\xampp\htdocs\wordpresspractice\wp-content\plugins\my-plugin\my-plugin.php:61
+Stack trace:
+#0 C:\xampp\htdocs\wordpresspractice\wp-settings.php(517): include_once()
+#1 C:\xampp\htdocs\wordpresspractice\wp-config.php(101): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpresspractice\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpresspractice\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wordpresspractice\wp-content\plugins\my-plugin\my-plugin.php on line 61
+[27-Jun-2024 07:49:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_url() in C:\xampp\htdocs\wordpresspractice\wp-content\plugins\my-plugin\my-plugin.php:61
+Stack trace:
+#0 C:\xampp\htdocs\wordpresspractice\wp-settings.php(517): include_once()
+#1 C:\xampp\htdocs\wordpresspractice\wp-config.php(101): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpresspractice\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpresspractice\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wordpresspractice\wp-content\plugins\my-plugin\my-plugin.php on line 61
+[27-Jun-2024 07:51:25 UTC] PHP Notice:  Function wp_enqueue_script was called incorrectly. Scripts and styles should not be registered or enqueued until the wp_enqueue_scripts, admin_enqueue_scripts, or login_enqueue_scripts hooks. This notice was triggered by the my-custom-js handle. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 3.3.0.) in C:\xampp\htdocs\wordpresspractice\wp-includes\functions.php on line 6078
+[27-Jun-2024 07:51:25 UTC] PHP Notice:  Function wp_enqueue_script was called incorrectly. Scripts and styles should not be registered or enqueued until the wp_enqueue_scripts, admin_enqueue_scripts, or login_enqueue_scripts hooks. This notice was triggered by the my-custom-js handle. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 3.3.0.) in C:\xampp\htdocs\wordpresspractice\wp-includes\functions.php on line 6078
+[27-Jun-2024 07:52:40 UTC] PHP Notice:  Function wp_enqueue_script was called incorrectly. Scripts and styles should not be registered or enqueued until the wp_enqueue_scripts, admin_enqueue_scripts, or login_enqueue_scripts hooks. This notice was triggered by the my-custom-js handle. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 3.3.0.) in C:\xampp\htdocs\wordpresspractice\wp-includes\functions.php on line 6078
+[27-Jun-2024 07:52:41 UTC] PHP Notice:  Function wp_enqueue_script was called incorrectly. Scripts and styles should not be registered or enqueued until the wp_enqueue_scripts, admin_enqueue_scripts, or login_enqueue_scripts hooks. This notice was triggered by the my-custom-js handle. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 3.3.0.) in C:\xampp\htdocs\wordpresspractice\wp-includes\functions.php on line 6078
+[27-Jun-2024 07:53:18 UTC] PHP Notice:  Function wp_enqueue_script was called incorrectly. Scripts and styles should not be registered or enqueued until the wp_enqueue_scripts, admin_enqueue_scripts, or login_enqueue_scripts hooks. This notice was triggered by the my-custom-js handle. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 3.3.0.) in C:\xampp\htdocs\wordpresspractice\wp-includes\functions.php on line 6078
+[27-Jun-2024 07:53:19 UTC] PHP Notice:  Function wp_enqueue_script was called incorrectly. Scripts and styles should not be registered or enqueued until the wp_enqueue_scripts, admin_enqueue_scripts, or login_enqueue_scripts hooks. This notice was triggered by the my-custom-js handle. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 3.3.0.) in C:\xampp\htdocs\wordpresspractice\wp-includes\functions.php on line 6078
+[27-Jun-2024 07:53:26 UTC] PHP Notice:  Function wp_enqueue_script was called incorrectly. Scripts and styles should not be registered or enqueued until the wp_enqueue_scripts, admin_enqueue_scripts, or login_enqueue_scripts hooks. This notice was triggered by the my-custom-js handle. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 3.3.0.) in C:\xampp\htdocs\wordpresspractice\wp-includes\functions.php on line 6078
+[27-Jun-2024 07:53:34 UTC] PHP Notice:  Function wp_enqueue_script was called incorrectly. Scripts and styles should not be registered or enqueued until the wp_enqueue_scripts, admin_enqueue_scripts, or login_enqueue_scripts hooks. This notice was triggered by the my-custom-js handle. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 3.3.0.) in C:\xampp\htdocs\wordpresspractice\wp-includes\functions.php on line 6078
+[27-Jun-2024 07:55:27 UTC] PHP Notice:  Function wp_enqueue_script was called incorrectly. Scripts and styles should not be registered or enqueued until the wp_enqueue_scripts, admin_enqueue_scripts, or login_enqueue_scripts hooks. This notice was triggered by the my-custom-js handle. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 3.3.0.) in C:\xampp\htdocs\wordpresspractice\wp-includes\functions.php on line 6078
+[27-Jun-2024 07:55:27 UTC] PHP Notice:  Function wp_enqueue_script was called incorrectly. Scripts and styles should not be registered or enqueued until the wp_enqueue_scripts, admin_enqueue_scripts, or login_enqueue_scripts hooks. This notice was triggered by the my-custom-js handle. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 3.3.0.) in C:\xampp\htdocs\wordpresspractice\wp-includes\functions.php on line 6078
+[27-Jun-2024 07:55:37 UTC] PHP Notice:  Function wp_enqueue_script was called incorrectly. Scripts and styles should not be registered or enqueued until the wp_enqueue_scripts, admin_enqueue_scripts, or login_enqueue_scripts hooks. This notice was triggered by the my-custom-js handle. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 3.3.0.) in C:\xampp\htdocs\wordpresspractice\wp-includes\functions.php on line 6078
+[27-Jun-2024 07:55:47 UTC] PHP Notice:  Function wp_enqueue_script was called incorrectly. Scripts and styles should not be registered or enqueued until the wp_enqueue_scripts, admin_enqueue_scripts, or login_enqueue_scripts hooks. This notice was triggered by the my-custom-js handle. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 3.3.0.) in C:\xampp\htdocs\wordpresspractice\wp-includes\functions.php on line 6078
+[27-Jun-2024 07:55:47 UTC] PHP Notice:  Function wp_enqueue_script was called incorrectly. Scripts and styles should not be registered or enqueued until the wp_enqueue_scripts, admin_enqueue_scripts, or login_enqueue_scripts hooks. This notice was triggered by the my-custom-js handle. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 3.3.0.) in C:\xampp\htdocs\wordpresspractice\wp-includes\functions.php on line 6078
+[27-Jun-2024 07:55:50 UTC] PHP Notice:  Function wp_enqueue_script was called incorrectly. Scripts and styles should not be registered or enqueued until the wp_enqueue_scripts, admin_enqueue_scripts, or login_enqueue_scripts hooks. This notice was triggered by the my-custom-js handle. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 3.3.0.) in C:\xampp\htdocs\wordpresspractice\wp-includes\functions.php on line 6078
+[27-Jun-2024 07:55:52 UTC] PHP Notice:  Function wp_enqueue_script was called incorrectly. Scripts and styles should not be registered or enqueued until the wp_enqueue_scripts, admin_enqueue_scripts, or login_enqueue_scripts hooks. This notice was triggered by the my-custom-js handle. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 3.3.0.) in C:\xampp\htdocs\wordpresspractice\wp-includes\functions.php on line 6078
+[27-Jun-2024 07:57:28 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\xampp\htdocs\wordpresspractice\wp-content\plugins\my-plugin\my-plugin.php on line 67
+[27-Jun-2024 07:58:09 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "my-custom-scripts" not found or invalid function name in C:\xampp\htdocs\wordpresspractice\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\wordpresspractice\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\wordpresspractice\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\wordpresspractice\wp-includes\script-loader.php(2265): do_action('wp_enqueue_scri...')
+#3 C:\xampp\htdocs\wordpresspractice\wp-includes\class-wp-hook.php(324): wp_enqueue_scripts('')
+#4 C:\xampp\htdocs\wordpresspractice\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C:\xampp\htdocs\wordpresspractice\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\wordpresspractice\wp-includes\general-template.php(3050): do_action('wp_head')
+#7 C:\xampp\htdocs\wordpresspractice\wp-content\themes\hello-elementor\header.php(25): wp_head()
+#8 C:\xampp\htdocs\wordpresspractice\wp-includes\template.php(810): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\wordpresspractice\wp-includes\template.php(745): load_template('C:\\xampp\\htdocs...', true, Array)
+#10 C:\xampp\htdocs\wordpresspractice\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#11 C:\xampp\htdocs\wordpresspractice\wp-content\themes\hello-elementor\custom-post.php(3): get_header()
+#12 C:\xampp\htdocs\wordpresspractice\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\wordpresspractice\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\wordpresspractice\index.php(17): require('C:\\xampp\\htdocs...')
+#15 {main}
+  thrown in C:\xampp\htdocs\wordpresspractice\wp-includes\class-wp-hook.php on line 324
+[27-Jun-2024 07:58:26 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "my-custom-scripts" not found or invalid function name in C:\xampp\htdocs\wordpresspractice\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\wordpresspractice\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\wordpresspractice\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\wordpresspractice\wp-includes\script-loader.php(2265): do_action('wp_enqueue_scri...')
+#3 C:\xampp\htdocs\wordpresspractice\wp-includes\class-wp-hook.php(324): wp_enqueue_scripts('')
+#4 C:\xampp\htdocs\wordpresspractice\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C:\xampp\htdocs\wordpresspractice\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\wordpresspractice\wp-includes\general-template.php(3050): do_action('wp_head')
+#7 C:\xampp\htdocs\wordpresspractice\wp-content\themes\hello-elementor\header.php(25): wp_head()
+#8 C:\xampp\htdocs\wordpresspractice\wp-includes\template.php(810): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\wordpresspractice\wp-includes\template.php(745): load_template('C:\\xampp\\htdocs...', true, Array)
+#10 C:\xampp\htdocs\wordpresspractice\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#11 C:\xampp\htdocs\wordpresspractice\wp-content\themes\hello-elementor\custom-post.php(3): get_header()
+#12 C:\xampp\htdocs\wordpresspractice\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\wordpresspractice\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\wordpresspractice\index.php(17): require('C:\\xampp\\htdocs...')
+#15 {main}
+  thrown in C:\xampp\htdocs\wordpresspractice\wp-includes\class-wp-hook.php on line 324
+[27-Jun-2024 08:01:46 UTC] PHP Parse error:  syntax error, unexpected token "}" in C:\xampp\htdocs\wordpresspractice\wp-content\plugins\my-plugin\my-plugin.php on line 74

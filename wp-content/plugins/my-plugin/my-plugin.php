@@ -46,11 +46,45 @@ register_deactivation_hook(__FILE__, 'my_plugin_deactivation');
 
 
 
+// this is for shortcode 
+function my_shortcode_function(){
+    return '<h1>This is my shortcode</h1>';
+}
+
+add_shortcode('my-short','my_shortcode_function');
 
 
-//this is for shortcode 
-// function my_shortcode_function(){
-//     return '<h1>This is my shortcode</h1>';
-// }
 
-// add_shortcode('my-short','my_shortcode_function');
+
+//jquery function
+function my_custom_scripts() {
+    // Get the URL of the main.js file within your plugin
+    $path = plugin_dir_url(__FILE__) . 'js/main.js';
+
+    // Define jQuery as a dependency for your script
+    $dependencies = array('jquery');
+
+    // Get the file modification time to use as version (cache busting)
+    $version = filemtime(plugin_dir_path(__FILE__) . 'js/main.js');
+
+    // Enqueue the script with WordPress
+    wp_enqueue_script('my-custom-js', $path, $dependencies, $version, true);
+
+    wp_add_inline_script('my-custom-js','var is_login ='.is_user_logged_in().';',);
+}
+add_action('wp_enqueue_scripts', 'my_custom_scripts'); 
+add_action('admin_enqueue_scripts', 'my_custom_scripts'); 
+
+
+
+// How to use sql select query and  wp_query 
+
+function getquery(){
+    global $wpdb, $table_prefix;
+    $wp_emp = $table_prefix.'emp';
+    $query = "SELECT * FROM `$wp_emp`";
+    $result= $wpdb->get_results($query);
+    print_r($result);
+
+}
+add_shortcode('databasequery','getquery');

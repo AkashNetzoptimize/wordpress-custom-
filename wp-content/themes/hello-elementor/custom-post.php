@@ -2,6 +2,7 @@
 /* Template Name: Custom post page */
 get_header();
 
+
 // Get category ID from URL parameter
 $category_id = isset($_GET['category_id']) ? absint($_GET['category_id']) : 0;
 
@@ -56,6 +57,14 @@ $query_args = array(
 // Execute the query
 $custom_query = new WP_Query($query_args);
 ?>
+
+
+<?php
+echo '<pre>';
+echo do_shortcode('[databasequery]'); 
+echo '</pre>';
+?>
+
 
 <div id="primary" class="content-area">
     <div id="main" class="site-main" role="main">

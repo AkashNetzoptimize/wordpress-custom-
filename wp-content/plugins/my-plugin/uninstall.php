@@ -7,8 +7,6 @@ if ( ! defined( 'WP_UNINSTALL_PLUGIN' ) ) {
 
 
 global $wpdb ,$table_prefix;
-
 $wp_emp = $table_prefix.'emp';
-
 $qdrop ="DROP TABLE `$wp_emp`;";
 $wpdb->query($qdrop);
